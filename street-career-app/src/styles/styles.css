@@ -1,0 +1,113 @@
+.scoring_component{
+    height: 48vh;
+    width:20%;
+    box-shadow: 0 2rem 4rem var(--shadow);
+    background-color: black;
+}
+
+.score-screen{
+    height:15vh;
+    font-size:6rem;
+    font-weight: 600;
+    width:50%;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    text-align: center;
+    border-color: black;
+    justify-content: center;
+    border: black;
+}
+
+.overs-screen{
+    height:15vh;
+    font-size:6rem;
+    width:50%;
+    font-weight: 600;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    text-align: center;
+    border-color: black;
+    justify-content: center;
+    border: black;
+}
+
+.balltrack-unit-screen{
+  height:10vh;
+  width:20%;
+  font-weight: 400;
+  color:white;
+  background-color: blue;
+  display: flex;
+  text-align: center;
+  border: black;
+  justify-content: center;
+}
+
+.balltrack-screen{
+  height: 10vh;
+  width: 100%;
+  overflow: hidden;
+  white-space: no-wrap;
+  color: white;
+  background-color:blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.score-over-screen{
+  height: 15vh;
+  width: 100%;
+  overflow: hidden;
+  white-space: no-wrap;
+  color: white;
+  background-color:lightblue;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.screen {
+    height: 25vh;
+    width: 100%;
+    overflow: hidden;
+    white-space: no-wrap;
+    color: white;
+    background-color:lightblue;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.keypad_row {
+    height: 11vh; /* (80vh calculator - 25vh screen) / 5 keypadRow components = 11vh */
+    width: 100%;
+    display: flex; /* To control the dimension */
+    color: white;
+  }
+
+  .keypad {
+    height: 33vh;
+    width: 100%;
+  }
+
+  .btn {
+    width: 25%;
+    height: 100%;
+    font-size: 3rem;
+    font-family: inherit;
+    background-color: lightgrey;
+    border: 1px solid transparent;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+  }
+  .btn:hover {
+    color: white;
+    background-color: tomato;
+  }
+  .btn:active {
+    transform: scale(.95);
+  }
