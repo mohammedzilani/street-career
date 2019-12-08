@@ -89,6 +89,7 @@
   .keypad {
     height: 33vh;
     width: 100%;
+    background-color: lightgrey;
   }
 
   .btn {

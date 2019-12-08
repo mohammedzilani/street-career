@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './styles/styles.css'
-import ScoringComponent from './layout/Score_Calculator/scoring_component'
+import ScoringComponent from './layout/ScoreCalculator/ScoringComponent'
 
 
 export class App extends Component {
